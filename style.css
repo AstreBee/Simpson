@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 233, 98);
+}
+#wrapper{
+    width: 75%;
+    margin: auto;
+}
+.title{                             /*Ooooh Pinaise title*/
+    color: white;
+    background-color: rgb(57, 131, 200);
+    text-align: center;   
+}
+.picture{                           /*simpson picture*/
+    width: 100%;
+    text-align: center;
+    vertical-align: top;
+}
+.container{
+    background-color: rgb(57, 131, 200);
+    text-align: center;
+}
+main{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 10px;   
+}
+nav{
+    padding: 20px;
+    height: fit-content;
+    width: 18%;       
+}
+ul{
+    list-style: none;
+    padding: 0;    
+}
+li{
+    padding-bottom: 10px;
+}
+.link{
+    color: white;               /*every links of nav*/
+    background-color: rgb(57, 131, 200);    
+}
+article{
+    text-align: justify;
+    justify-content: space-between;
+    width: 60% ;
+}
+.title2{                          /*Les Simpsons title*/
+    color: rgb(221, 221, 59);
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+aside{
+    width: fit-content;
+    padding: 10px;
+}
+h3{                               /*matt groening title*/
+    padding-bottom: 10px;
+    padding-top: 3px;
+    text-align: center;
+}
+.biography{                        /* of Matt Groening*/
+    color: white;
+    background-color: rgb(57, 131, 200);                          
+    width:20%;
+    padding: 10px;
+       
+}
+figure{
+    text-align: center;
+    
+}
+figure p{
+    text-align: justify;
+}
+.picture2{                        /*Matt Groening picture*/
+    width: 60%;
+    text-align: center;
+
+}
+footer{
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
