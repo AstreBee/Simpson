@@ -9,12 +9,12 @@ body{
     width: 75%;
     margin: auto;
 }
-.title{                             /*Ooooh Pinaise title*/
+.title{                             /* En-tête , Ooooh Pinaise title*/
     color: white;
     background-color: rgb(57, 131, 200);
     text-align: center;   
 }
-.picture{                           /*simpson picture*/
+.picture{                           /*En-tête , simpson picture*/
     width: 100%;
     text-align: center;
     vertical-align: top;
@@ -30,12 +30,16 @@ main{
     width: 100%;
     padding: 20px 10px;   
 }
-nav{
+
+
+
+/*nav Accueil , films , personnages, histoire, Matt Groening*/
+nav{                        
     padding: 20px;
     height: fit-content;
     width: 18%;       
 }
-ul{
+ul{                 
     list-style: none;
     padding: 0;    
 }
@@ -46,6 +50,11 @@ li{
     color: white;               /*every links of nav*/
     background-color: rgb(57, 131, 200);    
 }
+
+
+
+
+/*article*/
 article{
     text-align: justify;
     justify-content: space-between;
@@ -56,7 +65,12 @@ article{
     padding-top: 60px;
     padding-bottom: 25px;
 }
-aside{
+
+
+
+
+/* Biographie Matt Groening*/
+aside{                             
     width: fit-content;
     padding: 10px;
 }
@@ -65,7 +79,7 @@ h3{                               /*matt groening title*/
     padding-top: 3px;
     text-align: center;
 }
-.biography{                        /* of Matt Groening*/
+.biography{                        /* Biography Matt Groening*/
     color: white;
     background-color: rgb(57, 131, 200);                          
     width:20%;
@@ -84,6 +98,10 @@ figure p{
     text-align: center;
 
 }
+
+
+
+/* Footer */
 footer{
     color: white;
     background-color: darkblue;
