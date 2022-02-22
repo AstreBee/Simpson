@@ -2,27 +2,33 @@
     margin:0;
     box-sizing: border-box;
 }
+
 body{
     background-color: rgb(233, 233, 98);
 }
+
 #wrapper{
     width: 75%;
     margin: auto;
 }
+
 .title{                             /* En-tête , Ooooh Pinaise title*/
     color: white;
     background-color: rgb(57, 131, 200);
     text-align: center;   
 }
+
 .picture{                           /*En-tête , simpson picture*/
     width: 100%;
     text-align: center;
     vertical-align: top;
 }
+
 .container{
     background-color: rgb(57, 131, 200);
     text-align: center;
 }
+
 main{
     background-color: white;
     display: flex;
@@ -39,18 +45,21 @@ nav{
     height: fit-content;
     width: 18%;       
 }
+
 ul{                 
     list-style: none;
     padding: 0;    
 }
+
 li{
     padding-bottom: 10px;
 }
+
 .link{
     color: white;               /*every links of nav*/
     background-color: rgb(57, 131, 200);    
 }
-
+/* Fin nav */
 
 
 
@@ -60,12 +69,13 @@ article{
     justify-content: space-between;
     width: 60% ;
 }
+
 .title2{                          /*Les Simpsons title*/
     color: rgb(221, 221, 59);
     padding-top: 60px;
     padding-bottom: 25px;
 }
-
+/* Fin article */
 
 
 
@@ -74,11 +84,13 @@ aside{
     width: fit-content;
     padding: 10px;
 }
-h3{                               /*matt groening title*/
+
+h3{                                 /*matt groening title*/
     padding-bottom: 10px;
     padding-top: 3px;
     text-align: center;
 }
+
 .biography{                        /* Biography Matt Groening*/
     color: white;
     background-color: rgb(57, 131, 200);                          
@@ -86,18 +98,22 @@ h3{                               /*matt groening title*/
     padding: 10px;
        
 }
+
 figure{
     text-align: center;
     
 }
+
 figure p{
     text-align: justify;
 }
+
 .picture2{                        /*Matt Groening picture*/
     width: 60%;
     text-align: center;
 
 }
+/* Fin Biographie Matt Groening */
 
 
 
@@ -107,6 +123,7 @@ footer{
     background-color: darkblue;
     text-align: center;
 }
+/* Fin footer  */
 
 
 
